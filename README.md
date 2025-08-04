@@ -42,3 +42,4 @@ RETURN HTTP 400 Bad Request
 }  
 
 ## UML Data 
+<img width="522" height="608" alt="diagram" src="https://github.com/user-attachments/assets/11a34acc-be14-4b6b-906e-7d2376549b46" />
