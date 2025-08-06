@@ -1,6 +1,6 @@
 const express = require('express');
-const app = express();
-const PORT = 3000;
+const app = express(); 
+const PORT = 3000; 
 
 app.use(express.json());
 
@@ -46,3 +46,8 @@ app.post('/api/send-reminder', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Notification microservice running at http://localhost:${PORT}`);
 });
+
+// Testing Steps
+// npm install express
+// node server.js
+// node test.js
